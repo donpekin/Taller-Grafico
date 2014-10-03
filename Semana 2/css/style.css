@@ -1,0 +1,35 @@
+h1{
+	font-family: Impact;
+
+}
+
+aside{
+	font-family: Helvetica;
+}
+
+a{
+	text-decoration: none;
+	color: #000000;
+	font-family: Helvetica;
+	font-size: 14px;
+}
+
+article{
+	width: 370px;
+	float: left;
+	margin-left: 90px;
+	}
+
+ul{
+		list-style-type: none;
+
+}
+
+nav{
+	display: inline;
+}
+
+footer{
+		clear: both;
+
+}

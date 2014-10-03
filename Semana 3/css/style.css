@@ -1,0 +1,93 @@
+header{
+	width: 994px;
+	height:288px; 
+	background: url(../imagenes/cafeces.jpg);
+}
+
+h1{
+	float: center;
+	position: absolute;
+	top: 50px;
+	left: 375px;
+}
+
+h2{
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 24px;
+	color: #230b03;
+
+}
+
+p{
+	font-family: Arial;
+	font-size: 12px;
+	line-height: 20.24px;
+	color: #230b03;
+
+}
+
+nav ul li{
+	display: inline-block; 
+}
+
+nav{
+	background-color: #230b03;
+	width: 994px;
+	height: 32px;
+	text-align: center;
+
+}
+
+a{
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Helvetica;
+	font-size: 14px;
+}
+
+ul li{
+		list-style-type: none;
+		padding-left: 50px;
+		padding-top: 7px;
+	}
+
+article{
+	width: 370px;
+	float: left;
+	margin-left: 90px;
+	}
+
+footer p{
+	color: #ffffff;
+	padding-top: 7px;
+	padding-left: 10px;
+
+}
+
+.wrapper{
+	width: 994px;
+	height: 650px;
+	margin: auto;
+}
+
+.uno{
+	width: 682px; 
+	height: 511px;
+	float: left;
+}
+
+.dos{
+	width: 682px; 
+	height: 511px;
+	float: left;
+}
+
+footer {
+	background-color: #230b03;
+	width: 994px;
+	height: 32px;
+	clear: both;
+
+
+}
