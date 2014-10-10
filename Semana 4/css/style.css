@@ -1,0 +1,105 @@
+body {
+max-width:990px;
+margin:0 auto;
+background-color:#FFFFFF;
+font-size: 1em;
+font-family: 'Impact', sans-serif;;
+}
+
+header {
+max-width:990px;
+height:80px;
+border-bottom: 2px solid black;
+}
+
+p{
+	font-family: Helvetica;
+}
+
+
+aside {
+max-width:250px;
+float:left;
+}
+
+section {
+max-width:690px;
+float:right;
+padding:0;
+}
+
+footer {
+max-width:990pz;
+clear:both;
+border-top: 2px solid black;
+padding-top:10px;
+font-family: Helvetica;
+}
+
+.superblog {
+display:block;
+width:208px;
+height:72px;
+float:left;
+margin-top:5px;
+}
+
+
+#menu {
+list-style:none;
+margin-top: 40px;
+margin-bottom:30px;
+float:right;
+}
+
+#menu li{
+font-weight:bold;
+display:inline-block;
+margin-left:10px;
+font-size: 14px;
+}
+
+.menu, .menu2{
+text-decoration:none;
+font-weight:bold;
+font-family: Helvetica;
+}
+
+a {
+color:black;
+}
+
+a:visited {
+color:purple;
+}
+
+#menu2 { 
+list-style:none;
+margin-left:10px
+}
+#menu2 li{
+font-weight:bold;
+display:inline-block;
+margin-bottom:20px;
+}
+
+.date {
+font-size:13px;
+font-weight:bolder;
+}
+
+@media screen and (max-width: 650px) {
+
+	aside {
+		text-align: center;
+		width:100%;
+		float:none;
+	}
+
+	/* sidebar */
+	section {
+		width:100%;
+		float:none;
+	}
+
+}

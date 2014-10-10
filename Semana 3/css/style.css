@@ -1,3 +1,9 @@
+.wrapper{
+	width: 994px;
+	height: 650px;
+	margin: auto;
+}
+
 header{
 	width: 994px;
 	height:288px; 
@@ -7,8 +13,8 @@ header{
 h1{
 	float: center;
 	position: absolute;
-	top: 50px;
-	left: 375px;
+	top: 70px;
+	left: 520px;
 }
 
 h2{
@@ -28,22 +34,36 @@ p{
 }
 
 nav ul li{
-	display: inline-block; 
+	display: inline-block;
 }
+
+
+a:hover { 
+    background-color: #8a6145;
+    
+
+	}
 
 nav{
 	background-color: #230b03;
 	width: 994px;
-	height: 32px;
+	height: 42px;
 	text-align: center;
+	clear: both;
+	padding: 0px;
 
 }
 
 a{
+	display: block;
 	text-decoration: none;
 	color: #ffffff;
 	font-family: Helvetica;
 	font-size: 14px;
+	padding: 6px;
+	padding-left: 13px;
+	padding-right: 13px;
+	padding-bottom: 13px;
 }
 
 ul li{
@@ -51,6 +71,11 @@ ul li{
 		padding-left: 50px;
 		padding-top: 7px;
 	}
+
+section{
+	padding-top: 25px;
+	padding-bottom: 300px;
+}
 
 article{
 	width: 370px;
@@ -65,29 +90,10 @@ footer p{
 
 }
 
-.wrapper{
-	width: 994px;
-	height: 650px;
-	margin: auto;
-}
-
-.uno{
-	width: 682px; 
-	height: 511px;
-	float: left;
-}
-
-.dos{
-	width: 682px; 
-	height: 511px;
-	float: left;
-}
 
 footer {
 	background-color: #230b03;
 	width: 994px;
 	height: 32px;
 	clear: both;
-
-
 }

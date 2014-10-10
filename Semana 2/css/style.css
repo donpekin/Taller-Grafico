@@ -1,35 +1,90 @@
-h1{
-	font-family: Impact;
-
+body {
+width:990px;
+margin:0 auto;
+background-color:#FFFFFF;
+font-family: 'Impact', sans-serif;;
 }
 
-aside{
+header {
+width:990px;
+height:80px;
+border-bottom: 2px solid black;
+}
+
+p{
 	font-family: Helvetica;
 }
 
-a{
-	text-decoration: none;
-	color: #000000;
-	font-family: Helvetica;
-	font-size: 14px;
+
+aside {
+width:250px;
+float:left;
 }
 
-article{
-	width: 370px;
-	float: left;
-	margin-left: 90px;
-	}
+section {
+width:690px;
+float:right;
+padding:0;
+}
 
-ul{
-		list-style-type: none;
+footer {
+width:990pz;
+clear:both;
+border-top: 2px solid black;
+padding-top:10px;
+font-family: Helvetica;
+}
+
+.superblog {
+display:block;
+width:208px;
+height:72px;
+float:left;
+margin-top:5px;
+}
+
+
+#menu {
+list-style:none;
+margin-top: 40px;
+margin-bottom:30px;
+float:right;
 
 }
 
-nav{
-	display: inline;
+#menu li{
+font-weight:bold;
+font-family: Helvetica;
+display:inline-block;
+margin-left:10px;
+font-size: 14px;
 }
 
-footer{
-		clear: both;
+.menu, .menu2{
+text-decoration:none;
+font-weight:bold;
+font-family: Helvetica;
+}
 
+a {
+color:black;
+}
+
+a:visited {
+color:purple;
+}
+
+#menu2 { 
+list-style:none;
+margin-left:10px
+}
+#menu2 li{
+font-weight:bold;
+display:inline-block;
+margin-bottom:20px;
+}
+
+.date {
+font-size:13px;
+font-weight:bolder;
 }
